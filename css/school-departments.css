@@ -1,0 +1,15 @@
+.introduce-nav ul>li a:hover span{
+    left: 7%;
+}
+.introduce-nav ul>li a span{
+    left: 5%;
+}
+
+/*内容区图片顶边距*/
+.content-img{
+    padding-top: 25px;
+}
+.content-img img{
+    margin: 10px 0;
+    max-width: 80%;
+}

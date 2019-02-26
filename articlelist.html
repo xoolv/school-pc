@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>能投汇成</title>
+    <meta name="description" content="能投汇成">
+    <!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="xubo">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png" />
+    <link rel="stylesheet" type="text/css" href="third-party/sidr/css/jquery.sidr.dark.css">
+    <link rel="stylesheet" type="text/css" href="third-party/slick/css/slick.css">
+
+    <link rel="stylesheet" type="text/css" href="third-party/wow/css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="third-party/prettyphoto/css/prettyPhoto.css">
+    <link rel="stylesheet" type="text/css" href="third-party/accordionjs/css/accordion.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="icons/icons.css">
+    <link rel="stylesheet" href="third-party/fakeloader/fakeLoader.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" id="color" href="css/default.css">
+    <link rel="stylesheet" href="icons/fontawesome/css/all.css">
+    <style type="text/css">
+        .photos .portfolio-item {
+            width: 24.7%;
+            display: inline-block;
+        }
+        .major .major-item {
+            width: 31%;
+            float: left;
+            margin: 1%;
+            text-align: center;
+            padding: 10px 5px 5px 5px;
+            color: #fff;
+        }
+        .major .major-item img {
+            width: 40px;
+            height: 40px;
+        }
+        .major{
+            padding-left:0px ;
+            padding-right:0px ;
+        }
+    </style>
+    <!--[if lt IE 9]>
+    <script src="http://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="http://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="home header-v1">
+<!-- <div id="fakeloader"></div> -->
+<div id="page" class="site">
+    <!-- Mobile main menu -->
+    <a href="#" id="mobile-trigger"><i class="fa fa-list" aria-hidden="true"></i></a>
+    <div id="mob-menu">
+        <ul>
+            <li class="current-menu-item"><a href="about.html">About</a> </li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="typography.html">Typographys</a></li>
+        </ul>
+    </div> <!-- #mob-menu -->
+    <header id="masthead" class="site-header">
+        <div class="container">
+            <div class="site-branding pull-left">
+                <div id="site-identity">
+                    <h1 class="site-title"><a href="home-v1.html" rel="home"><img alt="logo" src="images/logo.png"></a></h1>
+                </div><!-- #site-identity -->
+            </div><!-- .site-branding -->
+            <a href="#" Class="mt-50 button-extra-small pull-right custom-button button-curved  custom-primary">在线咨询 </a>
+            <div class=" mt-50 quick-contact quick-contact-1 pull-right">
+                <ul>
+                    <li class="quick-address">
+                        <div class="header-box-icon">
+                            <i class="icon-map"></i>
+                        </div>
+                        <div class="header-box-info">
+                            <strong>都江堰市紫荆路2号</strong>
+                            <p>四川成都</p>
+                        </div>
+                    </li>
+                    <li class="open-time">
+                        <div class="header-box-icon">
+                            <i class="icon-clock"></i>
+                        </div>
+                        <div class="header-box-info">
+                            <strong>热线电话：18325544546</strong>
+                            <p>7:00-12:50</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div> <!-- .container -->
+    </header> <!-- .site-header -->
+    <div id="main-navigation" class="sticky-enabled">
+        <div class="container">
+            <div class="clear-fix">
+                <nav class="main-navigation pull-left">
+                    <ul>
+                        <li class="current-menu-item"><a href="#">首页</a> </li>
+                        <li class=""><a href="#">学校概况</a> </li>
+                        <li class="menu-item-has-children"><a href="#">院系设置</a>
+                            <ul class="sub-menu">
+                                <li><a href="services.html">软件技术</a></li>
+                                <li><a href="portfolio.html">平面设计</a></li>
+                                <li><a href="404-error.html">混泥土工程</a></li>
+                            </ul>
+                        </li>
+                        <li class=""><a href="#">学员就业</a> </li>
+                        <li class=""><a href="#">实训中心</a> </li>
+                        <li class=""><a href="#">招生专栏</a> </li>
+                        <li class=""><a href="#">在线咨询</a> </li>
+                        <li class=""><a href="#">在线报名</a> </li>
+                        <li class=""><a href="#">联系我们</a> </li>
+                    </ul>
+                </nav> <!-- .site-navigation -->
+                <div id="header-search">
+                    <a href="#" class="search-icon"><i class="fa fa-search"></i></a>
+                    <div class="search-box-wrap">
+                        <div class="searchform" role="search">
+                            <form class="search-form" method="get" action=".">
+                                <input type="text" name="s" id="s" placeholder="搜索" value="" class="search-field">
+                                <input type="submit" class="search-submit" value="搜索">
+                            </form>
+                        </div><!-- .searchform -->
+                    </div><!-- .search-box-wrap -->
+                </div> <!-- .header-search -->
+            </div><!-- .nav-inner-wrapper -->
+        </div><!-- .container -->
+    </div> <!-- #main-navigation -->
+    <aside class="section section-featured-slider slider-2">
+        <div id="main-slider" class="cycle-slideshow overlay-enabled featrued-slider" data-cycle-fx="fadeout"
+             data-cycle-speed="1000" data-cycle-pause-on-hover="true" data-cycle-loader="true" data-cycle-log="false"
+             data-cycle-swipe="true" data-cycle-auto-height="container" data-cycle-timeout="3000" data-cycle-slides="article"
+             data-pager-template='<span class="pager-box"></span>'>
+            <!-- prev/next links -->
+            <div class="cycle-prev"><i class="fas fa-angle-left" aria-hidden="true"></i></div>
+            <div class="cycle-next"><i class="fas fa-angle-right" aria-hidden="true"></i></div>
+            <!-- pager -->
+            <div class="cycle-pager"> </div>
+            <article class="first">
+                <div class="caption">
+                    <div class="cycle-caption text-aligncenter">
+
+                    </div> <!-- .cycle-caption -->
+                </div> <!-- .caption -->
+                <a href="#">
+                    <img src="images/slider/slide-9.jpg" alt="Slider" />
+                </a>
+            </article> <!-- article -->
+            <article>
+                <div class="caption">
+                    <div class="cycle-caption text-aligncenter">
+
+                    </div> <!-- .cycle-caption -->
+                </div> <!-- .caption -->
+                <a href="#">
+                    <img src="images/slider/slide-9.jpg" alt="Slider" />
+                </a>
+            </article> <!-- article -->
+        </div><!-- #main-slider -->
+    </aside> <!-- .section-featured-slider -->
+
+    <div id="content" class="site-content global-layout-left-sidebar" style="background: url(images/c9ea846ca2e8e4ef5fb1b4da2454f6c4.png);background-size: 100% auto;background-repeat: no-repeat;">
+        <div class="container">
+            <div class="latest-posts-section">
+                <div class="section-title-wrap">
+                    <h2 class="section-title">文章列表</h2><span class="divider"></span>
+                </div> <!-- .section-title-wrap -->
+                <div class="inner-wrapper">
+                    <div class="col-grid-12 latest-posts-item" style="margin-bottom: 10px">
+                        <div class="latest-posts-wrapper box-shadow-block">
+                            <div class="latest-posts-thumb" style='width: 20%; float: left;'>
+                                <a href="#"><img alt="Recent Post" src="images/blog/blog-5.jpg"></a>
+                            </div>
+                            <div class="latest-posts-text-content-wrapper" style='width: 80%; float: right;padding-left: 10px'>
+                                <div class="latest-posts-text-content">
+                                    <h3 class="latest-posts-title">
+                                        <a href="#">标题标题标题</a>
+                                    </h3>
+                                    <div class="entry-meta latest-posts-meta">
+                                        <span class="posted-on">June 13, 2017</span>
+                                        <span class="cat-links">admin</span>
+                                    </div>
+                                    <div class="latest-posts-summary">
+                                        <p>简介简介简介简介简介简介</p>
+                                    </div>
+                                    <a href="#" class="more-link button-curved">更多</a>
+
+                                </div> <!-- .latest-posts-text-content -->
+                            </div> <!-- .latest-posts-text-content-wrapper -->
+                        </div> <!-- .latest-posts-wrapper -->
+                    </div> <!-- .latest-posts-item  -->
+
+                    <div class="col-grid-12 latest-posts-item" style="margin-bottom: 10px">
+                        <div class="latest-posts-wrapper box-shadow-block">
+                            <div class="latest-posts-thumb" style='width: 20%; float: left;'>
+                                <a href="#"><img alt="Recent Post" src="images/blog/blog-5.jpg"></a>
+                            </div>
+                            <div class="latest-posts-text-content-wrapper" style='width: 80%; float: right;padding-left: 10px'>
+                                <div class="latest-posts-text-content">
+                                    <h3 class="latest-posts-title">
+                                        <a href="#">标题标题标题</a>
+                                    </h3>
+                                    <div class="entry-meta latest-posts-meta">
+                                        <span class="posted-on">June 13, 2017</span>
+                                        <span class="cat-links">admin</span>
+                                    </div>
+                                    <div class="latest-posts-summary">
+                                        <p>简介简介简介简介简介简介</p>
+                                    </div>
+                                    <a href="#" class="more-link button-curved">更多</a>
+
+                                </div> <!-- .latest-posts-text-content -->
+                            </div> <!-- .latest-posts-text-content-wrapper -->
+                        </div> <!-- .latest-posts-wrapper -->
+                    </div> <!-- .latest-posts-item  -->
+
+                    <div class="col-grid-12 latest-posts-item" style="margin-bottom: 10px">
+                        <div class="latest-posts-wrapper box-shadow-block">
+                            <div class="latest-posts-thumb" style='width: 20%; float: left;'>
+                                <a href="#"><img alt="Recent Post" src="images/blog/blog-5.jpg"></a>
+                            </div>
+                            <div class="latest-posts-text-content-wrapper" style='width: 80%; float: right;padding-left: 10px'>
+                                <div class="latest-posts-text-content">
+                                    <h3 class="latest-posts-title">
+                                        <a href="#">标题标题标题</a>
+                                    </h3>
+                                    <div class="entry-meta latest-posts-meta">
+                                        <span class="posted-on">June 13, 2017</span>
+                                        <span class="cat-links">admin</span>
+                                    </div>
+                                    <div class="latest-posts-summary">
+                                        <p>简介简介简介简介简介简介</p>
+                                    </div>
+                                    <a href="#" class="more-link button-curved">更多</a>
+
+                                </div> <!-- .latest-posts-text-content -->
+                            </div> <!-- .latest-posts-text-content-wrapper -->
+                        </div> <!-- .latest-posts-wrapper -->
+                    </div> <!-- .latest-posts-item  -->
+
+                    <div class="col-grid-12 latest-posts-item" style="margin-bottom: 10px">
+                        <div class="latest-posts-wrapper box-shadow-block">
+                            <div class="latest-posts-thumb" style='width: 20%; float: left;'>
+                                <a href="#"><img alt="Recent Post" src="images/blog/blog-5.jpg"></a>
+                            </div>
+                            <div class="latest-posts-text-content-wrapper" style='width: 80%; float: right;padding-left: 10px'>
+                                <div class="latest-posts-text-content">
+                                    <h3 class="latest-posts-title">
+                                        <a href="#">标题标题标题</a>
+                                    </h3>
+                                    <div class="entry-meta latest-posts-meta">
+                                        <span class="posted-on">June 13, 2017</span>
+                                        <span class="cat-links">admin</span>
+                                    </div>
+                                    <div class="latest-posts-summary">
+                                        <p>简介简介简介简介简介简介</p>
+                                    </div>
+                                    <a href="#" class="more-link button-curved">更多</a>
+
+                                </div> <!-- .latest-posts-text-content -->
+                            </div> <!-- .latest-posts-text-content-wrapper -->
+                        </div> <!-- .latest-posts-wrapper -->
+                    </div> <!-- .latest-posts-item  -->
+
+                    <div class="col-grid-12 latest-posts-item" style="margin-bottom: 10px">
+                        <div class="latest-posts-wrapper box-shadow-block">
+                            <div class="latest-posts-thumb" style='width: 20%; float: left;'>
+                                <a href="#"><img alt="Recent Post" src="images/blog/blog-5.jpg"></a>
+                            </div>
+                            <div class="latest-posts-text-content-wrapper" style='width: 80%; float: right;padding-left: 10px'>
+                                <div class="latest-posts-text-content">
+                                    <h3 class="latest-posts-title">
+                                        <a href="#">标题标题标题</a>
+                                    </h3>
+                                    <div class="entry-meta latest-posts-meta">
+                                        <span class="posted-on">June 13, 2017</span>
+                                        <span class="cat-links">admin</span>
+                                    </div>
+                                    <div class="latest-posts-summary">
+                                        <p>简介简介简介简介简介简介</p>
+                                    </div>
+                                    <a href="#" class="more-link button-curved">更多</a>
+
+                                </div> <!-- .latest-posts-text-content -->
+                            </div> <!-- .latest-posts-text-content-wrapper -->
+                        </div> <!-- .latest-posts-wrapper -->
+                    </div> <!-- .latest-posts-item  -->
+                    <div class="more-wrapper">
+                        <a href="#" class="custom-button button-curved">加载更多</a>
+                    </div> <!-- .more-wrapper -->
+
+                </div> <!-- .inner-wrapper -->
+            </div>
+        </div><!-- .container -->
+    </div>
+    <div class="footer-container">
+        <div id="footer-widgets">
+            <div class="container">
+                <div class="inner-wrapper">
+                    <aside class="footer-active-4 footer-widget-area">
+                        <img src="images/img_xc.jpg" alt="Recent Post">
+                    </aside> <!-- .footer-widget-area -->
+                    <aside style="width: 75%;" class="footer-widget-area">
+                        <ul class="">
+                            <li class="current-menu-item"><a href="#">首页</a> </li>
+                            <li class=""><a href="#">学校概况</a> </li>
+                            <li class=""><a href="#">课程专业</a> </li>
+                            <li class=""><a href="#">教学实力</a> </li>
+                            <li class=""><a href="#">招生简介</a> </li>
+                            <li class=""><a href="#">在线咨询</a> </li>
+                            <li class=""><a href="#">联系我们</a> </li>
+                        </ul>
+                        <div class="widget-quick-contact">
+                            <span>copyright 版权所有：四川能投汇成技工学校</span>
+                            <span>联系电话：0288456 41564565 456456456 </span>
+                            <span>地址：四川省成都市都江堰市紫金路2号 电子邮箱：46545@qq.com </span>
+                        </div>
+                    </aside>
+                </div><!-- .inner-wrapper -->
+            </div> <!-- .container -->
+        </div> <!-- #footer-widgets -->
+        <footer id="colophon" class="site-footer">
+            <div class="colophon-bottom">
+                <div class="container">
+                    <div class="copyright">
+                        <p> Copyright © 2018 <a href="http://www.xoolv.com/">大搜索</a></p>
+                    </div>
+                    <div class="site-info">
+                        <p>备案号：<a rel="" href="http://www.xoolv.com/" target="_blank">京ICP备16006021号-1</a> </p>
+                    </div> <!-- .site-info -->
+                </div> <!-- .container -->
+            </div> <!-- .colophon-bottom -->
+        </footer> <!-- footer ends here -->
+    </div><!-- footer-container -->
+</div>
+<!--#page-->
+<div id="btn-scrollup">
+    <a title="Go Top" class="scrollup button-circle" href="#"><i class="fas fa-angle-up"></i></a>
+</div>
+<script src="third-party/jquery/jquery-3.2.1.min.js"></script>
+<script src="third-party/jquery/jquery-migrate-3.0.0.min.js"></script>
+<!--Include all compiled plugins (below), or include individual files as needed-->
+<script src="third-party/sidr/js/jquery.sidr.js"></script>
+<script src="third-party/cycle2/jquery.cycle2.js"></script>
+<script src="third-party/slick/js/slick.min.js"></script>
+<script src="third-party/wow/js/wow.min.js"></script>
+<script src="third-party/counter-up/js/waypoints.min.js"></script>
+<script src="third-party/counter-up/js/jquery.counterup.min.js"></script>
+<script src="third-party/isotope/js/isotope.pkgd.min.js"></script>
+<script src="third-party/prettyphoto/js/jquery.prettyPhoto.js"></script>
+<script src="third-party/fakeloader/fakeLoader.min.js"></script>
+<script src="third-party/accordionjs/js/accordion.min.js"></script>
+<script src="third-party/imagesloaded/imagesloaded.pkgd.min.js"></script>
+<script src="js/contact.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/color-switcher.js"></script>
+</body>
+</html>
