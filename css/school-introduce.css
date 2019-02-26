@@ -1,0 +1,150 @@
+/*背景图*/
+.school-introduce-container{
+    background:url('../images/school-introduce/schooll-intrd-bg.png') no-repeat center;
+    background-size: cover;
+    padding: 30px 0 120px 0;
+    clear: both;
+    float: left;
+    width: 100%;
+    font-family:"微软雅黑";
+}
+
+/*中间容器宽度*/
+.introduce-box{
+
+}
+.introduce-box .nav-left{
+    margin-top: 0;
+    min-height: 300px;
+}
+.introduce-box .box-container{
+    /*padding-left: 0;*/
+    border-radius: 12px;
+}
+
+/*左侧导航*/
+.introduce-box .nav-left .border{
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    overflow: hidden;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+
+/*左侧导航*/
+.introduce-box .nav-left .introduce-nav{
+    font-size: 16px;
+    width: 100%;
+}
+.introduce-box .nav-left .introduce-nav ul{
+    text-align: center;
+    list-style: none;
+    margin: 10px;
+    padding: 0;
+}
+.introduce-box .nav-left .introduce-nav ul>li{
+    padding-bottom: 5px;
+}
+.introduce-box .nav-left .introduce-nav ul>li a{
+    width: 100%;
+    display: block;
+    position: relative;
+    padding: 5px 0;
+    color:#999999;
+}
+.introduce-nav ul>li a:hover{
+    background-color: #F6F6F6;
+    border-radius: 5px;
+    color:#222222;
+}
+.introduce-nav ul>li a:hover span{
+    background: url("../images/school-introduce/right-yes.png") no-repeat;
+    transition: all 0.6s;
+    background-size: cover;
+    left: 20%;
+}
+/*激活当前li*/
+.introduce-nav ul li.isActive a{
+    background-color: #F6F6F6;
+    border-radius: 5px;
+    color:#222222;
+}
+
+/*箭头小图标*/
+.introduce-nav ul>li a span{
+    display: block;
+    width: 20px;
+    height: 20px;
+    left: 17%;
+    top:9px;
+    position: absolute;
+    background: url("../images/school-introduce/right-no.png") no-repeat;
+    background-size: cover;
+    transition: all 0.6s;
+}
+.introduce-nav ul>li:first-child{
+    background:url("../images/school-introduce/shcool-nav-bg.png");
+}
+/*渐变背景*/
+.introduce-nav .introduce-nav-head{
+    padding: 12px 0;
+    background-image:-webkit-linear-gradient(right,#006DC2,#00A3EF);
+    background-repeat: no-repeat;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+.introduce-nav .introduce-nav-head .introduce-nav-head-icon{
+    width: 50px;
+    height: 50px;
+    background: url("../images/school-introduce/shcool-nav-bg.png") no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: -10px;
+    top: 2px;
+}
+
+
+/*切换内容*/
+.box-container .nav-right{
+    display: none;
+}
+.box-container .isBoxactive{
+    display: block;
+}
+
+/*右侧内容*/
+.nav-right .nav-right-title{
+    background: none;
+    border:none;
+    border-bottom: 1px solid #E1E1E1;
+    text-align: center;
+    position: relative;
+    padding: 10px;
+    padding-top: 12px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.nav-right aside{
+    border: none;
+    border-radius: 12px;
+}
+
+.nav-right .nav-right-mianbao{
+    position: absolute;
+    bottom: 0px;
+    font-size: 11px;
+    color: #666666;
+    right: 15px;
+}
+
+.nav-right .nav-right-content{
+    padding: 5px;
+}
+
+
+/*底部*/
+.footer-container{
+    width: 100%;
+}
